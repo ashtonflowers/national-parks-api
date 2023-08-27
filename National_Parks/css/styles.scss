@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "magilio";
+    src: url("/assets/Magilio.woff")
+  }
+
+body {
+    font-family: "Open Sans","Arial",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #445e40;
+}
+
+@import 'header';
+
+@import 'hero';
+ 
+@import 'park-cards';
+
+@import 'footer';

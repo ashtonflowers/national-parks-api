@@ -1,0 +1,56 @@
+.park-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 40px;
+    .park-card {
+        border: 1px solid #ffffffab;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+        background: #ffffffab;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 475px;
+        line-height: 22px;
+        h2{
+            text-align: center;
+            font-family:"magilio","Arial",sans-serif; 
+            font-size: 32px;
+            line-height: 36px;
+            font-weight: 400;
+            min-height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            width: 100%;
+            max-height: 300px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        a{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #000;
+            color: white;
+            font-weight: 800;
+            margin: 30px auto 10px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: .3s ease-in-out;
+        }
+        a:hover{
+            box-shadow: none;
+        }
+    }
+}
